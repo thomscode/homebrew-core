@@ -33,7 +33,7 @@ class PhpAT71 < Formula
   depends_on "libzip"
   depends_on "mcrypt"
   depends_on "openldap" if DevelopmentTools.clang_build_version >= 1000
-  depends_on "openssl"
+  depends_on "openssl@1.1"
   depends_on "pcre"
   depends_on "unixodbc"
   depends_on "webp"
